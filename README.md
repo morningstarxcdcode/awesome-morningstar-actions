@@ -14,6 +14,16 @@ GitHub Actions enable you to automate your software development workflows direct
 
 ---
 
+## A Note from the Maintainer
+
+This repository was created with dedication and passion to help developers discover and use the best GitHub Actions available. While I have used various tools to assist in organizing and refining the content, every piece of information and code has been carefully reviewed and crafted by me to ensure it reflects a genuine, human touch.
+
+My goal is to provide a resource that feels personal, heartfelt, and truly useful to the developer community. I stand behind the quality and authenticity of this repository.
+
+Thank you for visiting and contributing!
+
+---
+
 ## Interactive Guide
 
 Open the [GUI Interface](./gui/index.html) in your browser to explore this repository with an interactive step-by-step tutorial, helping you understand and use all features easily.
