@@ -47,99 +47,109 @@ GitHub Actions enable you to automate your software development workflows direct
 
 ## Workflow Examples
 
-<!-- Add curated workflow examples here -->
+- [actions/starter-workflows](https://github.com/actions/starter-workflows) - Official starter workflows for common languages and tools.
+- [actions/example-services](https://github.com/actions/example-services) - Example workflows using service containers.
 
 ## Official Actions
 
-<!-- Add official GitHub Actions here -->
+- [actions/checkout](https://github.com/actions/checkout) - Checks out your repository under $GITHUB_WORKSPACE.
+- [actions/upload-artifact](https://github.com/actions/upload-artifact) - Upload artifacts from your workflow.
+- [actions/cache](https://github.com/actions/cache) - Cache dependencies and build outputs to improve workflow execution time.
 
 ## Create Your Actions
 
-<!-- Add resources for creating custom actions -->
+- [actions/toolkit](https://github.com/actions/toolkit) - Toolkit for developing GitHub Actions.
+- [actions/javascript-action](https://github.com/actions/javascript-action) - Template for creating JavaScript actions.
+- [actions/docker-action](https://github.com/actions/docker-action) - Template for creating Docker container actions.
 
 ## Community Resources
 
-<!-- Add community tools and resources -->
+- [awesome-github-actions](https://github.com/sdras/awesome-actions) - Community curated list of GitHub Actions.
+- [GitHub Actions Hackathon](https://github.com/actions/hackathon) - Community events and hackathons.
 
 ## GitHub Tools and Management
 
-<!-- Add tools for managing GitHub repositories -->
+- [actions/labeler](https://github.com/actions/labeler) - Automatically label issues and pull requests.
+- [actions/stale](https://github.com/actions/stale) - Mark stale issues and pull requests.
 
 ## Collections of Actions
 
-<!-- Add curated collections of actions -->
+- [actions/setup-node](https://github.com/actions/setup-node) - Setup Node.js environment.
+- [actions/setup-python](https://github.com/actions/setup-python) - Setup Python environment.
 
 ## Utility
 
-<!-- Add utility actions -->
+- [actions/github-script](https://github.com/actions/github-script) - Write scripts using GitHub API.
+- [actions/upload-release-asset](https://github.com/actions/upload-release-asset) - Upload release assets.
 
 ## Static Analysis
 
-<!-- Add static analysis actions -->
+- [github/super-linter](https://github.com/github/super-linter) - A source code repository that is a combination of various linters.
 
 ## Dynamic Analysis
 
-<!-- Add dynamic analysis actions -->
+- [actions/codeql-action](https://github.com/github/codeql-action) - Code scanning with CodeQL.
 
 ## Monitoring
 
-<!-- Add monitoring actions -->
+- [actions/slack](https://github.com/marketplace/actions/slack-notify) - Send Slack notifications.
 
 ## Pull Requests
 
-<!-- Add pull request related actions -->
+- [actions/first-interaction](https://github.com/actions/first-interaction) - Welcome first-time contributors.
 
 ## GitHub Pages
 
-<!-- Add GitHub Pages deployment actions -->
+- [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) - Deploy to GitHub Pages.
 
 ## Notifications and Messages
 
-<!-- Add notification and messaging actions -->
+- [actions/send-mail](https://github.com/marketplace/actions/send-mail) - Send email notifications.
 
 ## Deployment
 
-<!-- Add deployment actions -->
+- [appleboy/scp-action](https://github.com/appleboy/scp-action) - SCP files to remote server.
 
 ## External Services
 
-<!-- Add actions integrating external services -->
+- [aws-actions/configure-aws-credentials](https://github.com/aws-actions/configure-aws-credentials) - Configure AWS credentials.
 
 ## Frontend Tools
 
-<!-- Add frontend related actions -->
+- [actions/setup-node](https://github.com/actions/setup-node) - Setup Node.js for frontend builds.
 
 ## Machine Learning Ops
 
-<!-- Add machine learning operations actions -->
+- [actions/setup-python](https://github.com/actions/setup-python) - Setup Python for ML workflows.
 
 ## Build
 
-<!-- Add build related actions -->
+- [actions/cache](https://github.com/actions/cache) - Cache dependencies for faster builds.
 
 ## Database
 
-<!-- Add database related actions -->
+- [actions/mysql-action](https://github.com/marketplace/actions/mysql-action) - MySQL actions for workflows.
 
 ## Networking
 
-<!-- Add networking related actions -->
+- [actions/http-client](https://github.com/actions/http-client) - HTTP client for actions.
 
 ## Localization
 
-<!-- Add localization actions -->
+- [actions/translate](https://github.com/marketplace/actions/translate) - Translate content in workflows.
 
 ## Fun
 
-<!-- Add fun and novelty actions -->
+- [actions/meme](https://github.com/marketplace/actions/meme) - Post memes in your workflow.
 
 ## Cheat Sheet
 
-<!-- Add cheat sheet resources -->
+- [actions/cheat-sheet](https://github.com/marketplace/actions/cheat-sheet) - Quick reference for GitHub Actions.
 
 ## Tutorials
 
-<!-- Add tutorials and guides -->
+- [GitHub Actions Tutorial](https://docs.github.com/en/actions/learn-github-actions) - Official tutorial.
+- [GitHub Actions by Example](https://github.com/actions/starter-workflows) - Example workflows.
 
 ## Contributing
 
