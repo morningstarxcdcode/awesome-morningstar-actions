@@ -2,10 +2,35 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/morningstarxcdcode/awesome-morningstar-actions?style=social)](https://github.com/morningstarxcdcode/awesome-morningstar-actions/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![GitHub Workflow](https://github.com/morningstarxcdcode/awesome-morningstar-actions/actions/workflows/ci.yml/badge.svg)
+
+<p align="center">
+  <img src="assets/github-actions-animated.gif" alt="GitHub Actions Animation" width="400"/>
+</p>
 
 A curated list of awesome GitHub Actions and automation tools to supercharge your workflows.
 
 GitHub Actions enable you to automate your software development workflows directly in your repository. With Actions, you can build, test, and deploy your code right from GitHub.
+
+---
+
+## Interactive Guide
+
+Open the [GUI Interface](./gui/index.html) in your browser to explore this repository with an interactive step-by-step tutorial, helping you understand and use all features easily.
+
+---
+
+## Why This Repository?
+
+This repository is designed to be your go-to resource for discovering, learning, and contributing to GitHub Actions. Whether you are a beginner or an expert, you'll find valuable tools, workflows, and community resources here.
+
+---
+
+## Our Promise
+
+We strive to keep this list up-to-date, easy to understand, and visually appealing. Your contributions and feedback are always welcome to make this repository better for everyone.
+
+---
 
 ## Table of Contents
 
@@ -158,3 +183,18 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fi
 ## Code of Conduct
 
 This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+---
+
+<p align="center">
+  <img src="assets/community.gif" alt="Community" width="300"/>
+</p>
+
+---
+
+### Useful Links
+
+- [License](LICENSE)
+- [Security Policy](SECURITY.md)
+- [GitHub Issue Templates](.github/ISSUE_TEMPLATE/)
+- [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md)
