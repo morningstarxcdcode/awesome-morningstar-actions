@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Awesome Morningstar Actions - Interactive Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f7f9;
+      color: #333;
+    }
+    header {
+      background: #0366d6;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #e1e4e8;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    nav button {
+      background: #0366d6;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    nav button:hover {
+      background: #024ea2;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section {
+      display: none;
+    }
+    section.active {
+      display: block;
+    }
+    h2 {
+      color: #0366d6;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Awesome Morningstar Actions</h1>
+    <p>Your interactive guide to GitHub Actions and this repository</p>
+  </header>
+  <nav>
+    <button data-target="intro">Introduction</button>
+    <button data-target="how-to-use">How to Use</button>
+    <button data-target="structure">Repository Structure</button>
+    <button data-target="contributing">Contributing</button>
+    <button data-target="code-of-conduct">Code of Conduct</button>
+    <button data-target="resources">Resources</button>
+  </nav>
+  <main>
+    <section id="intro" class="active">
+      <h2>Introduction</h2>
+      <p>Welcome to the Awesome Morningstar Actions repository! This curated list contains the best GitHub Actions and automation tools to help you streamline your workflows.</p>
+      <p>Use the navigation above to explore the repository, learn how to contribute, and discover valuable resources.</p>
+    </section>
+    <section id="how-to-use">
+      <h2>How to Use This Repository</h2>
+      <ol>
+        <li>Browse the <a href="#resources">Resources</a> section to find GitHub Actions categorized by their purpose.</li>
+        <li>Read the <a href="#contributing">Contributing</a> section to learn how to add your own resources.</li>
+        <li>Follow the <a href="#code-of-conduct">Code of Conduct</a> to maintain a welcoming community.</li>
+        <li>Check the <a href="README.md" target="_blank">README.md</a> for detailed information.</li>
+      </ol>
+    </section>
+    <section id="structure">
+      <h2>Repository Structure</h2>
+      <ul>
+        <li><strong>README.md</strong>: Main documentation and resource list.</li>
+        <li><strong>CONTRIBUTING.md</strong>: Guidelines for contributing.</li>
+        <li><strong>CODE_OF_CONDUCT.md</strong>: Community standards.</li>
+        <li><strong>LICENSE</strong>: License information.</li>
+        <li><strong>SECURITY.md</strong>: Security policy.</li>
+        <li><strong>.github/</strong>: GitHub templates and workflows.</li>
+        <li><strong>gui/</strong>: This interactive guide.</li>
+      </ul>
+    </section>
+    <section id="contributing">
+      <h2>Contributing</h2>
+      <p>We welcome contributions! Please fork the repository, create a branch, and submit a pull request with your additions or improvements.</p>
+      <p>Refer to the <a href="CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a> file for detailed guidelines.</p>
+    </section>
+    <section id="code-of-conduct">
+      <h2>Code of Conduct</h2>
+      <p>This project follows the <a href="CODE_OF_CONDUCT.md" target="_blank">Contributor Covenant Code of Conduct</a> to foster a welcoming and inclusive community.</p>
+    </section>
+    <section id="resources">
+      <h2>Resources</h2>
+      <p>Explore the curated GitHub Actions and tools in the <a href="README.md#official-resources" target="_blank">README</a>.</p>
+      <p>Visit the <a href="https://github.com/morningstarxcdcode/awesome-morningstar-actions" target="_blank">GitHub repository</a> for the latest updates.</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2024 morningstarxcdcode. All rights reserved.
+  </footer>
+  <script>
+    const buttons = document.querySelectorAll('nav button');
+    const sections = document.querySelectorAll('main section');
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        sections.forEach(section => section.classList.remove('active'));
+        const target = button.getAttribute('data-target');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
